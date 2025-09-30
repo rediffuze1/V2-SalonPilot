@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SalonPilot</title>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <script type="module" src="/src/main.tsx"></script>
+
+    <!-- Debug Replit (Eruda) : protégé -->
+    <script src="https://cdn.jsdelivr.net/npm/eruda"></script>
+    <script>
+      try {
+        if (document && document.body) {
+          eruda.init();
+        }
+      } catch (e) {
+        console.warn("Eruda non initialisé :", e);
+      }
+    </script>
+  </body>
+</html>
